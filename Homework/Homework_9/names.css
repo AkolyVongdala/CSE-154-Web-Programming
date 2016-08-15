@@ -1,0 +1,35 @@
+/*
+	Grant Yuzon Hughes
+	ID: 1233759
+	CSE 154 AL
+	HW #9 (names.css)
+	5/30/2014
+
+	This homework contains extra feature 4.
+	This page styles names.html.
+*/
+
+body {
+	font-size: 12pt;
+	font-family: georgia, serif;
+}
+
+q {
+	font-style: italic;
+}
+
+td {
+	height: 250px;
+	vertical-align: bottom;
+}
+
+.bar {
+	background-color: #FFBBBB;
+	width: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.topten {
+	color: red;
+}
