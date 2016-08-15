@@ -1,0 +1,40 @@
+/*
+	Grant Yuzon Hughes
+	ID: 1233759
+	CSE 154 AL
+	HW #8 (fifteen.css)
+	5/28/2014
+
+	This homework contains extra feature 5.
+	This CSS adds style to fifteen.html.
+*/
+
+body {
+	font-size: 14pt;
+	text-align: center;
+	font-family: cursive;
+}
+
+#puzzlearea {
+	height: 400px;
+	width: 400px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.square {
+	height: 90px;
+	width: 90px;
+	border: 5px solid black;
+	position: absolute;
+	font-size: 40pt;
+	cursor: default;
+	background-image: url("./backgrounds/background0.jpg");
+}
+
+.movable:hover {
+	border: 5px solid red;
+	color: red;
+	cursor: pointer;
+}
