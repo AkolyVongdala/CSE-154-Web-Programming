@@ -96,7 +96,6 @@
 			var pic = document.createElement("option");
 			document.getElementById("menu").appendChild(pic);
 			pic.innerHTML = name[i];
-			//pic.value = "https://webster.cs.washington.edu/students/gyhughes/hw8/" + url[i]; // Depreciated.
 			pic.value = "backgrounds/" + url[i];
 		}
 	}
@@ -105,7 +104,6 @@
 	function changebackground() {
 		var squares = document.getElementsByClassName("square");
 		for (var i = 0; i < squares.length; i++) {
-			//squares[i].style.backgroundImage = "url(" + document.getElementById("menu").value + ")"; // Depreciated.
 			squares[i].style.backgroundImage = "url(./" + document.getElementById("menu").value + ")";
 		}
 	}
